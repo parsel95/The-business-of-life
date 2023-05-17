@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-Black.woff2") format("woff2");
+}
+
+/* common */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* section */
+
+.section-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.section-description-small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.section-description-medium {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
