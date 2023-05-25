@@ -11,54 +11,68 @@
 <body class="page-body">
   <header class="page-header">
     <nav class="header-nav">
-      <a class="logo" href="" >
-        <img class="logo__img" src="" alt="Логотип компании.">
+      <a class="logo" href="index.html" >
+        <img class="logo__img" src="/img/index/logo.svg" alt="Логотип компании." width="53" height="58">
       </a>
 
-      <ul class="header__menu site-menu">
+      <ul class="header__menu site-menu section-description-medium">
         <li class="site-menu__item">
-          <a class="site-menu__link">Главная</a>
+          <a class="site-menu__link standart-state" href="#">Главная</a>
         </li>
 
         <li class="site-menu__item">
-          <a class="site-menu__link">О нас</a>
+          <a class="site-menu__link standart-state" href="#">О нас</a>
         </li>
 
         <li class="site-menu__item">
-          <details class="site-menu__help-menu help-menu" name="" id="">
-            <summary class="select-help__button">Санкт-Петербург</summary>
+          <details class="site-menu__help-menu select-menu" name="help-menu" id="help-menu">
+            <summary class="select-menu__button standart-state">Помощь</summary>
 
-            <ul class="help-menu__list">
-              <li class="help-menu__item">
-                <a class="help-menu__link" href="#">Популярные вопросы</a>
+            <ul class="select-menu__list">
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Популярные вопросы</a>
               </li>
-              <li class="help-menu__item">
-                <a class="help-menu__link" href="#">Полезная информация</a>
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Полезная информация</a>
               </li>
-              <li class="help-menu__item">
-                <a class="help-menu__link" href="#">Обратная связь</a>
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Обратная связь</a>
               </li>
-              <li class="help-menu__item">
-                <a class="help-menu__link" href="#">Юридическим лицам</a>
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Юридическим лицам</a>
               </li>
             </ul>
           </details>
         </li>
 
         <li class="site-menu__item">
-          <select class="site-menu__city-select city-select" name="" id="">
-            <option class="city-select__item" value="">Санкт-Петербург</option>
-            <option class="city-select__item" value="">Москва</option>
-            <option class="city-select__item" value="">Казань</option>
-            <option class="city-select__item" value="">Владивосток</option>
-            <option class="city-select__item" value="">Новосибирск</option>
-          </select>
+          <details class="site-menu__city-select select-menu section-description-medium" name="city-select" id="city-select">
+            <summary class="select-menu__button standart-state">Санкт-Петербург</summary>
+
+            <ul class="select-menu__list">
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Санкт-Петербург</a>
+              </li>
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Москва</a>
+              </li>
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Казань</a>
+              </li>
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Владивосток</a>
+              </li>
+              <li class="select-menu__item">
+                <a class="select-menu__link" href="#">Новосибирск</a>
+              </li>
+            </ul>
+          </details>
         </li>
       </ul>
 
-      <a class="header__phone" href="tel:+74959671301">+7 495 967 13 01</a>
+      <a class="header__phone standart-state" href="tel:+74959671301">+7 495 967 13 01</a>
 
-      <button class="header__personal-account" type="button">Личный кабинет</button>
+      <button class="header__personal-account standart-state" type="button">Личный кабинет</button>
     </nav>
   </header>
 
@@ -66,7 +80,195 @@
     <h1 class="visually-hidden">Страховая компания Дело жизни.</h1>
 
     <section class="protecting-plus">
-      
+      <div class="protecting-plus__left-part">
+        <h2 class="protecting-plus__main-title">Страховая программа<span class="protecting-plus__title-solid"> Защита +</span></h2>
+
+        <p class="protecting-plus__description section-description-small">Одна из самых удобных и выгодных страховых программ предоставляемых грожанам России и иностранным гражданам.</p>
+
+        <a class="protecting-plus__button button standart-state" href="#">Купить</a>
+      </div>
+
+      <div class="protecting-plus__right-part"></div>
+    </section>
+
+    <section class="advance">
+      <h2 class="advance__main-title section-title">О страховании</h2>
+
+      <ul class="advance__list section-description-small">
+        <li class="advance__item section-description-small">
+          <span class="advance__item-title section-description-small">без ограничений </span>
+          обращения к доктору 24/7
+        </li>
+        <li class="advance__item section-description-small">
+          <span class="advance__item-title section-description-small">без ограничений </span>
+          обращения к врачам-специалистам
+        </li>
+        <li class="advance__item section-description-small">
+          <span class="advance__item-title section-description-small">24/7</span>
+          защита от несчастного случая + медицинский онлайн-сервис
+        </li>
+        <li class="advance__item section-description-small">
+          <span class="advance__item-title section-description-small">до 2-х раз год</span>
+          лабораторные исследования
+        </li>
+        <li class="advance__item section-description-small">
+          <span class="advance__item-title section-description-small">до 10 мин.</span>
+          упрощенная система страхования
+        </li>
+      </ul>
+    </section>
+
+    <section class="conditions">
+      <h2 class="conditions__main-title section-title">Условия которые мы предоставим Вам</h2>
+
+      <ul class="conditions__list">
+        <li class="conditions__item">
+          <div class="conditions__img"></div>
+          <div class="conditions__item-container">
+            <p class="conditions__title">20+</p>
+            <p class="conditions__description">Высококвалифицированных врачей к которым вы можете обращаться <span class="conditions__description-solid">24/7</span></p>
+          </div>
+        </li>
+        <li class="conditions__item">
+          <div class="conditions__img"></div>
+          <div class="conditions__item-container">
+            <p class="conditions__title">BestDoctor</p>
+            <p class="conditions__description">Доступ в один из лучших медицинских сервисов в России</p>
+          </div>
+        </li>
+        <li class="conditions__item">
+          <div class="conditions__img"></div>
+          <div class="conditions__item-container">
+            <p class="conditions__title">600 000₽</p>
+            <p class="conditions__description">Сумма страховой защиты от нещастного случая</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="service-packages">
+      <h2 class="service-packages__main-title section-title">У нас есть 2 пакета услуг</h2>
+
+      <ul class="service-packages__list">
+        <li class="service-packages__item suggestions">
+          <div class="suggestions__wrap">
+            <h3 class="service-packages__item-title suggestions__title">Что мы предлогаем:</h3>
+
+            <ul class="suggestions__list">
+              <li class="suggestions__item">круглосуточный колл-центр<br> по консультациям терапевта или педиатра</li>
+
+              <li class="suggestions__item">консультация терапевта или педиатра по телефону или по видеосвязи</li>
+
+              <li class="suggestions__item">предварительная запись к выбранному узкому специалисту по телефону или через личный кабинет пациента</li>
+
+              <li class="suggestions__item">консультация узкого специалиста по видеосвязи</li>
+
+              <li class="suggestions__item">выбор лаборатории, запись на прием в лабораторию</li>
+
+              <li class="suggestions__item">комплексный отчет о состоянии здоровья пациента от врача после получения результатов анализов от пациента</li>
+
+              <li class="suggestions__item">никаких чат-ботов</li>
+
+              <li class="suggestions__item">на связи 24/7 только высококвалифицированные врачи</li>
+
+              <li class="suggestions__item">удобное приложение с простым интерфейсом BestDoctor</li>
+
+              <li class="suggestions__item">
+                <details class="suggestions__item-select select">
+                  <summary class="suggestions__item-select-button select__button">общие (клинические) анализы</summary>
+
+                  <ul class="suggestions__item-select-list select__list">
+                    <li class="suggestions__item-select-item select__item">УЗИ органов брюшной полости</li>
+                    <li class="suggestions__item-select-item select__item">почек</li>
+                    <li class="suggestions__item-select-item select__item">мочевого пузыря</li>
+                    <li class="suggestions__item-select-item select__item">УЗДГ сосудов (артерии и вены)</li>
+                    <li class="suggestions__item-select-item select__item">одно исследование из списка в течение срока действия программы </li>
+                  </ul>
+                </details>
+              </li>
+
+              <li class="suggestions__item">
+                <details class="suggestions__item-select select">
+                  <summary class="suggestions__item-select-button select__button">ультразвуковые исследования</summary>
+
+                  <ul class="suggestions__item-select-list select__list">
+                    <li class="suggestions__item-select-item select__item">УЗИ органов брюшной полости</li>
+                    <li class="suggestions__item-select-item select__item">почек</li>
+                    <li class="suggestions__item-select-item select__item">мочевого пузыря</li>
+                    <li class="suggestions__item-select-item select__item">УЗДГ сосудов (артерии и вены)</li>
+                    <li class="suggestions__item-select-item select__item">одно исследование из списка в течение срока действия программы </li>
+                  </ul>
+                </details>
+              </li>
+
+              <li class="suggestions__item">
+                <details class="suggestions__item-select select">
+                  <summary class="suggestions__item-select-button select__button">рентгенологические исследования</summary>
+
+                  <ul class="suggestions__item-select-list select__list">
+                    <li class="suggestions__item-select-item select__item">УЗИ органов брюшной полости</li>
+                    <li class="suggestions__item-select-item select__item">почек</li>
+                    <li class="suggestions__item-select-item select__item">мочевого пузыря</li>
+                    <li class="suggestions__item-select-item select__item">УЗДГ сосудов (артерии и вены)</li>
+                    <li class="suggestions__item-select-item select__item">одно исследование из списка в течение срока действия программы </li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </div>
+
+          <a class="service-packages__download-button button standart-state" download="" href="#">Cкачать полуную версию</a>
+        </li>
+
+        <li class="service-packages__item protecting">
+          <h3 class="service-packages__item-title section-description-medium"><span class="service-packages__item-title-solid">Защита +</span>виртуальная клиника</h3>
+
+          <ul class="service-packages__list-inner">
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner service-packages__item-minus"></li>
+            <li class="service-packages__item-inner service-packages__item-minus"></li>
+            <li class="service-packages__item-inner service-packages__item-minus"></li>
+            <li class="service-packages__item-text">10 500 руб.</li>
+            <li class="service-packages__item-button">
+              <a class="service-packages__buy-button button standart-state" href="#">Купить</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="service-packages__item protecting-two">
+          <h3 class="service-packages__item-title section-description-medium"><span class="service-packages__item-title-solid">Защита +</span>виртуальная клиника, лабораторные исследования </h3>
+
+          <ul class="service-packages__list-inner">
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-inner"></li>
+            <li class="service-packages__item-text">
+              <span class="service-packages__item-text-small">Супер цена</span>
+              <span>7750 руб.</span>
+            </li>
+            <li class="service-packages__item-button">
+              <a class="service-packages__buy-button button standart-state" href="#">Купить</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </section>
   </main>
 </body>
