@@ -76,7 +76,7 @@
     </nav>
   </header>
 
-  <main class="page-main">
+  <main class="page-main page-container">
     <h1 class="visually-hidden">Страховая компания Дело жизни.</h1>
 
     <section class="protecting-plus">
@@ -312,6 +312,296 @@
         </li>
       </ul>
     </section>
+
+    <section class="manual">
+      <h2 class="manual__main-title section-title">Что делать, если произошел страховой случай?</h2>
+
+      <ul class="manual__list">
+        <li class="manual__item">
+          <a class="manual__link" href="#">
+            <span class="manual__link-img"></span>
+          </a>
+          <a class="manual__link" href="#">
+            <p class="manual__link-text">Позвоните нам</p>
+          </a>
+        </li>
+        <li class="manual__item manual__item-active">
+          <a class="manual__link" href="#">
+            <span class="manual__link-img"></span>
+          </a>
+          <a class="manual__link" href="#">
+            <p class="manual__link-text">Заполните заявление</p>
+          </a>
+        </li>
+        <li class="manual__item">
+          <a class="manual__link" href="#">
+            <span class="manual__link-img"></span>
+          </a>
+          <a class="manual__link" href="#">
+            <p class="manual__link-text">Узнайте статус решения вопроса</p>
+          </a>
+        </li>
+        <li class="manual__item">
+          <a class="manual__link" href="#">
+            <span class="manual__link-img"></span>
+          </a>
+          <a class="manual__link" href="#">
+            <p class="manual__link-text">Полный архив всех условий</p>
+          </a>
+        </li>
+      </ul>
+
+      <div class="manual__wrapper">
+        <div class="manual__left-part">
+          <p class="manual__title">Заполните заявление и подготовьте необходимые документы.</p>
+
+          <p class="manual__description">Направьте документы в Страховую компанию удобным для Вас способом:</p>
+
+          <ul class="manual__text-list">
+            <li class="manual__text-list-item">через <a class="manual__text-link">Личный кабинет</a></li>
+            <li class="manual__text-list-item">письмом по адресу: 125252, г. Москва, а/я 28</li>
+          </ul>
+        </div>
+
+        <div class="manual__right-part">
+          <p class="manual__title">Список необходимых документов для заключения договора:</p>
+
+          <ul class="manual__text-list">
+            <li class="manual__text-list-item">паспорт</li>
+            <li class="manual__text-list-item">заявление на страхование</li>
+            <li class="manual__text-list-item">иные документы – по запросу компании</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation">
+      <h2 class="presentation__main-title section-title">Посмотреть полную презентацию продукта</h2>
+
+      <a class="presentation__button button standart-state" download="">Скачать PDF</a>
+    </section>
+
+    <section class="support">
+      <h2 class="support__main-title section-title">Уточнить детали</h2>
+      <p class="support__description section-description-medium">Если вы не нашли ответа на свой вопрос, заполните эту форму, а мы как можно быстрее ответим вам.</p>
+
+      <div class="support__container">
+        <div class="support__left-part">
+          <div class="support__number-container">
+            <span class="support__number">1</span>
+            <span class="support__number support__number-small">2</span>
+          </div>
+
+          <form class="support__form" action="https://echo.htmlacademy.ru/" method="get">
+            <ul class="support__list">
+              <li class="support__item field">
+                <label class="field__title" for="full-name">ФИО*</label>
+                <input type="text" class="field__input" name="full-name" id="full-name" placeholder="Иванов Иван Иванович">
+              </li>
+              <li class="support__item field">
+                <label class="field__title" for="number-phone">Номер телефона*</label>
+                <input type="tel" class="field__input" name="number-phone" id="number-phone" placeholder="+7 (495) 453 33 41">
+              </li>
+              <li class="support__item field">
+                <label class="field__title" for="email">Email*</label>
+                <input type="email" class="field__input" name="email" id="email" placeholder="delolive@mail.ru">
+              </li>
+              <li class="support__item field field-select">
+                <p class="field-select__title">Регион*</p>
+                <select class="field-select__form field__input" name="city" id="city">
+                  <option class="field-select__option" value="st.petersberg">Санкт-Петербург</option>
+                  <option class="field-select__option" value="moscow">Москва</option>
+                  <option class="field-select__option" value="kazan">Казань</option>
+                  <option class="field-select__option" value="kaliningrad">Калининград</option>
+                </select>
+              </li>
+            </ul>
+
+            <div class="support__button-container">
+              <button class="support__button-reset button standart-state" type="reset">очистить</button>
+
+              <button class="support__button button standart-state" type="submit">далее</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="support__right-part"></div>
+
+        <div class="support__form-second-container support__form-second-container-disable">
+          <div class="support__number-container">
+            <span class="support__number">2</span>
+          </div>
+
+          <form class="support__form-second" action="https://echo.htmlacademy.ru/" method="get">
+            <ul class="support__list-second">
+              <li class="support__second-item field">
+                <p class="field-select__title">Наименование страхового продукта</p>
+                <select class="field-select__form field__input" name="name-of-pole" id="name-of-pole">
+                  <option class="field-select__option" value="protection+">Защита +</option>
+                  <option class="field-select__option" value="protection+lab">Защита + Лабораторные исследования</option>
+                </select>
+              </li>
+
+              <li class="support__second-item field">
+                <label class="field-select__title" for="number-of-pole">Номер полиса</label>
+                <input type="number" class="field__input" name="number-of-pole" id="number-of-pole" placeholder="123456789">
+              </li>
+
+              <li class="support__second-item field">
+                <p class="field-select__title">Выберите тему</p>
+                <select class="field-select__form field__input" name="subject" id="subject">
+                  <option class="field-select__option" value="termination-pole">Расторжение страхового полиса</option>
+                  <option class="field-select__option" value="change-pole">Изменение страхового полиса</option>
+                </select>
+              </li>
+
+              <li class="support__second-item field">
+                <p class="field-select__title">Ваше сообщение</p>
+                <textarea class="field__textarea" name="message" id="message" cols="30" rows="3" placeholder="Здравствуйте!"></textarea>
+              </li>
+            </ul>
+
+            <div class="support__second-container">
+              <div class="support__input-file-wrapper input__file-wrapper">
+                <label class="support__file-button input__file-button standart-state" for="input-file">
+                  <div class="input__file-button-text">Выбрать файл</div>
+                </label>
+                <div class="input__file-fake">Файл не выбран</div>
+                <div class="input__file-additional">JPG, GIF или PNG. Максимальный размер 1 мб</div>
+                <input class="support__input-file input__file" name="file" type="file" id="input-file">
+              </div>
+
+              <div class="support__second-button-container">
+                <label class="support__second-control control">
+                  <input class="control__input" type="checkbox" name="agreement" value="agreement">
+                  <span class="control__mark"></span>
+                  <span class="control__lead">Я принимаю&nbsp<a class="control__link" href="#">условия передачи информации</a></span>
+                </label>
+
+                <div class="support__button-container">
+                  <button class="support__button-reset button standart-state" type="reset">очистить</button>
+
+                  <button class="support__button button standart-state" type="submit">отправить</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__container">
+      <div class="page-footer__wrapper section-description-medium">
+        <ul class="page-footer__nav-list">
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Главная</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">О нас</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Новости</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Спецпредложения</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Бизнес предлодения</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Твое будущее</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Защита себя и близких</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Защита сотрудников</a>
+          </li>
+        </ul>
+
+        <ul class="page-footer__nav-list">
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Страховая документация</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Финансовые показатели</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Контакты</a>
+          </li>
+          <li class="page-footer__nav-list-item">
+            <a class="page-footer__nav-list-link" href="#">Карта сайта</a>
+          </li>
+        </ul>
+
+        <div class="page-footer__address-wrapper">
+          <address class="page-footer__address">125252, г. Москва,<br> ул. Зорге, д. 22 А, офис 811</address>
+
+          <p class="page-footer__address">
+            График работы главного офиса<br>
+            125252, г. Москва,<br>
+            ул. Зорге, д. 22 А, офис 811<br>
+            Пн. - Чт. с 9:00 до 18:00<br>
+            Пт.  с 9:00 до 16:45<br>
+            Сб-Вс выходной
+          </p>
+
+          <a class="page-footer__address-button standart-state" href="#">Как добраться</a>
+        </div>
+
+        <div class="page-footer__contact-wrapper">
+          <address class="page-footer__address">Адрес для почтовых отправлений: 125252, г. Москва, а/я 28</address>
+
+          <a class="page-footer__phone" href="tel:+74959671301">тел.: +7 495 967 13 01</a>
+
+          <p class="page-footer__email-text">Email для связи с нами </p>
+          <a class="page-footer__email" href="malito:info@prolife.ru">info@prolife.ru</a>
+
+          <ul class="page-footer__contact-list">
+            <li class="page-footer__contact-item">
+              <a class="page-footer__contact-link" href="#"></a>
+            </li>
+            <li class="page-footer__contact-item">
+              <a class="page-footer__contact-link" href="#"></a>
+            </li>
+            <li class="page-footer__contact-item">
+              <a class="page-footer__contact-link" href="#"></a>
+            </li>
+            <li class="page-footer__contact-item">
+              <a class="page-footer__contact-link" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer__line"></div>
+
+    <div class="page-container">
+      <p class="page-footer__descritpion section-description-small">© 1998 – 2021 ООО СК "ДЕЛО ЖИЗНИ". Все права защищены. Полное или частичное копирование любых материалов сайта запрещено. ООО СК «ДЕЛО ЖИЗНИ» осуществляет свою деятельность на основании лицензий ЦБ РФ:СЖ № 3870 от 24.03.2017СЛ № 3870 от 24.03.2017 Органом, осуществляющим полномочия по контролю и надзору за ООО СК «ДЕЛО ЖИЗНИ» является Банк России. Адрес официального сайта Банк России - www.cbr.ru.</p>
+    </div>
+
+  </footer>
+
+  <script>
+    let fields = document.querySelectorAll('.input__file');
+    Array.prototype.forEach.call(fields, function (input) {
+      let label = input.nextElementSibling,
+        labelVal = label.querySelector('.input__file-fake').innerText;
+
+      input.addEventListener('change', function (e) {
+        let countFiles = '';
+        if (this.files && this.files.length >= 1)
+          countFiles = this.files.length;
+
+        if (countFiles)
+          label.querySelector('.input__file-fake').innerText = 'Выбрано файлов: ' + countFiles;
+        else
+          label.querySelector('.input__file-fake').innerText = labelVal;
+      });
+    });
+</script>
 </body>
 </html>
